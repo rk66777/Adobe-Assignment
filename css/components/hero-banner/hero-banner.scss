@@ -1,0 +1,163 @@
+@import '../../base/desktop';
+@import '../../base/variable';
+@import '../../base/mixins';
+
+.hero-wrapper{
+    background-color: $color_bg1;
+    background-image: url("../../assets/images/updated_Header/updated_Header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .hero-new{
+        font: var(--unnamed-font-style-normal) normal 600 12px/14px var(--unnamed-font-family-proxima-nova);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--oxford-blue-354e57);
+        background-color: $color_alabesters;
+        padding: 5px;
+    }
+    .hero-left-heading{
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-48)/var(--unnamed-line-spacing-58) var(--unnamed-font-family-proxima-nova);
+        color: $color_oxford_blue;
+    }
+    .hero-left-text{
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/20px var(--unnamed-line-spacing-24) var(--unnamed-font-family-proxima-nova);
+        color: $color_oxford_blue;
+    }
+}
+.header-hero-banner-section {
+    .btn-default{
+        border: 1px solid $color_oxford_blue;
+        padding: 10px 40px;
+        font-weight: bold;
+        color: $color_rangitoto;
+    }
+    @media (min-width: 768px) {
+        background-image: url('../assets/images/hero-banner-background.png');
+        background-color: #eef2f4;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 80% 100%;
+    }
+
+    @media (min-width: 769px) and (max-width: 1200px) {
+        background-position-y: 50%;
+        background-position-x: 56%;
+    }
+
+    @media (min-width: 1200px) {
+        height: 550px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-banner-container {
+        padding: 0 !important;
+
+        
+        .hero-banner-heading {
+            position: relative !important;
+            top: 0 !important;
+            padding: 28px;
+            background-color: e0e3e8;
+
+            span{
+                margin-bottom: 16px;
+                background-color: $color_alabesters;
+                padding: 5px;
+            }
+
+            div {
+                margin-bottom: 16px;
+                color: $color_oxford_blue;
+            }
+
+            .body-1-—-14pt {
+                font-size: 16px;
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/20px var(--unnamed-line-spacing-24) var(--unnamed-font-family-proxima-nova);
+            }
+        }
+
+        .hero-banner-product-image-xs {
+            // min-height:  455px;
+            min-height:  350px;
+            position: relative;
+            background-image: url('../assets/images/hero-banner-background.png');
+            background-color: #e0e3e8;
+            background-position-x: 76%;
+            background-repeat: no-repeat;
+
+        }
+
+        .visible-lg {
+            display: none !important;
+        }
+    
+        .visible-xs {
+            display: block !important;
+        } 
+
+        .text-align-center {
+            text-align: center;
+        }
+    }   
+}
+
+@media (min-width:768px) and (max-width: 1200px) {
+    .hide-lg {
+        display: none !important;
+    }
+
+    .visible-sm {
+        display: block !important;
+    }
+
+    .hero-banner-heading {
+        top: 26px !important;
+
+        div {
+            margin-bottom: 16px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-banner-container {
+        position: relative;
+        height: 100%;
+        padding: 0 116px;
+
+        .hero-banner-heading {
+            position: absolute;
+            top: 124px;
+
+            span{
+                margin-bottom: 16px;
+                background-color: $color_alabesters;
+                padding: 5px;
+            }
+
+            .headline-—-48pt{
+                margin-top: 16px;
+            }
+    
+            div {
+                margin-bottom: 16px;
+                color: $color_oxford_blue;
+            }
+
+            .body-1-—-14pt{
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/20px var(--unnamed-line-spacing-24) var(--unnamed-font-family-proxima-nova);
+            }
+        }       
+
+        .visible-lg {
+            display: block;
+        }
+    
+        .visible-xs,
+        .visible-sm {
+            display: none;
+        }
+    }   
+}
+
