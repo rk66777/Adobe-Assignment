@@ -3,7 +3,7 @@
 @import '../../base/mixins';
 
 
-.news-letter-wrapper {
+.news-letter-container {
     .news-letter {
         margin: 71px 0 90px;
 
@@ -56,7 +56,7 @@
 }
 
 @include tablet{
-    .news-letter-wrapper {
+    .news-letter-container {
         .news-letter {
             .email-subscribe {
                 text-align: right;
@@ -73,7 +73,7 @@
 }
 
 @include desktop {
-    .news-letter-wrapper {
+    .news-letter-container {
         .news-letter {
             margin: 35px 0;
 

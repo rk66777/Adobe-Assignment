@@ -3,7 +3,7 @@
 @import '../../base/mixins';
 
 
-.tiles-wrapper {
+.tiles-container {
     text-align: center;
     background-color: $color_alabesters;
     padding-bottom: 109px !important; 
@@ -26,7 +26,7 @@
 
 
 @include desktop {
-    .tiles-wrapper {
+    .tiles-container {
         padding-bottom: 191px !important;           
     }
 }

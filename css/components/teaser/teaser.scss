@@ -2,7 +2,7 @@
 @import '../../base/variable';
 @import '../../base/mixins';
 
-.teaser-wrapper {
+.teaser {
 
     .teaser-details {
         background: var(--como-547665) 0% 0% no-repeat padding-box;
@@ -70,7 +70,7 @@
 
 @include desktop {
 
-    .teaser-wrapper {
+    .teaser {
         background: var(--como-547665) 0% 0% no-repeat padding-box;
 
         .teaser-details {

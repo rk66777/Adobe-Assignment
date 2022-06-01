@@ -111,13 +111,13 @@
   src: url(fonts/Metropolis-Black.eot);
 }
 
-.footer-wrapper {
+.footer-container {
   width: 100%;
   background-color: #354E57;
   color: #FFFFFF;
 }
 
-.footer-wrapper > div:first-child {
+.footer-container > div:first-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,11 +128,11 @@
   padding-top: 84px;
 }
 
-.footer-wrapper .link-list .links {
+.footer-container .link-list .links {
   float: left;
 }
 
-.footer-wrapper .link-list .links strong {
+.footer-container .link-list .links strong {
   font: var(--unnamed-font-style-normal) normal 600 16px/19px var(--unnamed-font-family-proxima-nova);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--white-ffffff);
@@ -140,7 +140,7 @@
   text-transform: uppercase;
 }
 
-.footer-wrapper .link-list .links ul {
+.footer-container .link-list .links ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -150,17 +150,17 @@
   text-align: left;
 }
 
-.footer-wrapper .link-list .links ul li {
+.footer-container .link-list .links ul li {
   margin: 10px 0;
   min-width: 140px;
 }
 
-.footer-wrapper .link-list .links ul li a {
+.footer-container .link-list .links ul li a {
   text-decoration: none;
   color: #FFFFFF;
 }
 
-.footer-wrapper .footer-left .logo {
+.footer-container .footer-left .logo {
   color: var(--white-ffffff);
   letter-spacing: 2.7px;
   opacity: 1;
@@ -169,7 +169,7 @@
   margin-bottom: 15px;
 }
 
-.footer-wrapper .footer-left .subtext {
+.footer-container .footer-left .subtext {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/20px var(--unnamed-font-family-proxima-nova);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--white-ffffff);
@@ -177,36 +177,36 @@
   height: 54px;
 }
 
-.footer-wrapper .footer-left .email-subscribe {
+.footer-container .footer-left .email-subscribe {
   position: relative;
   width: 100%;
   border: 1px solid #FFFFFF;
 }
 
-.footer-wrapper .footer-left .email-subscribe input {
+.footer-container .footer-left .email-subscribe input {
   width: 100%;
   height: 40px;
   background-color: #354E57;
   color: #FFFFFF;
 }
 
-.footer-wrapper .footer-left .email-subscribe input::-webkit-input-placeholder {
+.footer-container .footer-left .email-subscribe input::-webkit-input-placeholder {
   color: #FFFFFF;
 }
 
-.footer-wrapper .footer-left .email-subscribe input::-moz-placeholder {
+.footer-container .footer-left .email-subscribe input::-moz-placeholder {
   color: #FFFFFF;
 }
 
-.footer-wrapper .footer-left .email-subscribe input:-ms-input-placeholder {
+.footer-container .footer-left .email-subscribe input:-ms-input-placeholder {
   color: #FFFFFF;
 }
 
-.footer-wrapper .footer-left .email-subscribe input:-moz-placeholder {
+.footer-container .footer-left .email-subscribe input:-moz-placeholder {
   color: #FFFFFF;
 }
 
-.footer-wrapper .footer-left .email-subscribe button {
+.footer-container .footer-left .email-subscribe button {
   position: absolute;
   top: 0;
   right: 0;
@@ -217,11 +217,11 @@
   border-left: 1px solid white;
 }
 
-.footer-wrapper hr {
+.footer-container hr {
   margin: 35px 0 40px 0;
 }
 
-.footer-wrapper .reserve-text {
+.footer-container .reserve-text {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/20px var(--unnamed-font-family-proxima-nova);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--white-ffffff);
@@ -230,21 +230,21 @@
   margin-bottom: 18px;
 }
 
-.footer-wrapper .footer-link {
+.footer-container .footer-link {
   padding-bottom: 140px;
 }
 
-.footer-wrapper .footer-link ul {
+.footer-container .footer-link ul {
   padding: 0;
 }
 
-.footer-wrapper .footer-link ul li {
+.footer-container .footer-link ul li {
   list-style: outside none none;
   display: inline-block;
   margin-right: 27px;
 }
 
-.footer-wrapper .footer-link ul li a {
+.footer-container .footer-link ul li a {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/20px var(--unnamed-font-family-proxima-nova);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--white-ffffff);
@@ -252,11 +252,11 @@
   text-decoration: underline;
 }
 
-.footer-wrapper .footer-link .social-links {
+.footer-container .footer-link .social-links {
   margin-top: 42px;
 }
 
-.footer-wrapper .footer-link .social-links a {
+.footer-container .footer-link .social-links a {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 25px;
@@ -264,7 +264,7 @@
 }
 
 @media (min-width: 1024px) {
-  .footer-wrapper > div:first-child {
+  .footer-container > div:first-child {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -274,23 +274,23 @@
             flex-direction: row;
     padding-top: 167px;
   }
-  .footer-wrapper .link-list {
+  .footer-container .link-list {
     width: 100%;
   }
-  .footer-wrapper .footer-left {
+  .footer-container .footer-left {
     width: 100%;
   }
-  .footer-wrapper .footer-left .subtext {
+  .footer-container .footer-left .subtext {
     margin-bottom: 36px;
     height: 40px;
   }
-  .footer-wrapper .footer-left .email-subscribe {
+  .footer-container .footer-left .email-subscribe {
     width: 60%;
   }
-  .footer-wrapper hr {
+  .footer-container hr {
     margin: 100px 0 40px 0;
   }
-  .footer-wrapper .footer-link {
+  .footer-container .footer-link {
     padding-bottom: 96px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -300,13 +300,13 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .footer-wrapper .footer-link ul {
+  .footer-container .footer-link ul {
     width: 80%;
   }
-  .footer-wrapper .footer-link ul li {
+  .footer-container .footer-link ul li {
     margin-right: 74px;
   }
-  .footer-wrapper .footer-link .social-links {
+  .footer-container .footer-link .social-links {
     margin-top: 0;
     width: 20%;
   }

@@ -2,7 +2,7 @@
 @import '../../base/variable';
 @import '../../base/mixins';
 
-.feature-banner-wrapper {
+.feature-banner-container {
     background-color: $color_athens_grey;
     text-align: center;
 
@@ -45,7 +45,7 @@
 }
 
 @include desktop {
-    .feature-banner-wrapper {
+    .feature-banner-container {
         .feature-banner {
             padding: 58px 0 60px;
             flex-direction: row;

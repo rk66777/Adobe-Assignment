@@ -4,7 +4,7 @@
   src: url(fonts/Metropolis-Black.eot);
 }
 
-.offer-banner-wrapper {
+.offer-banner {
   background-color: #A67744;
   height: 3.125rem;
   line-height: 3.125rem;
@@ -12,7 +12,7 @@
   text-align: center;
 }
 
-.offer-banner-wrapper p {
+.offer-banner p {
   font-size: 1rem;
   text-align: center;
   font-family: Proxima Nova, Arial, Helvetica, sans-serif;
@@ -23,11 +23,11 @@
 }
 
 @media (min-width: 1024px) {
-  .offer-banner-wrapper {
+  .offer-banner {
     height: 2.5rem;
     line-height: 2.5rem;
   }
-  .offer-banner-wrapper p {
+  .offer-banner p {
     font-size: 1.25rem;
   }
 }

@@ -3,7 +3,7 @@
 @import '../../base/mixins';
 
 
-.footer-wrapper {
+.footer-container {
     width: 100%;
     background-color: $color_oxford_blue;
     color: $color_white;
@@ -163,7 +163,7 @@
 
 
 @include desktop {
-    .footer-wrapper {
+    .footer-container {
         >div:first-child {
             display: flex;
             flex-direction: row;

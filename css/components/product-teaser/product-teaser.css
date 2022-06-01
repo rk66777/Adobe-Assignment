@@ -111,19 +111,19 @@
   src: url(fonts/Metropolis-Black.eot);
 }
 
-.product-teaser-wrapper {
+.product-teaser {
   background-color: #EEF3F4;
 }
 
-.product-teaser-wrapper .top-links {
+.product-teaser .top-links {
   display: none;
 }
 
-.product-teaser-wrapper .product-grid {
+.product-teaser .product-grid {
   padding: 34px 0 60px;
 }
 
-.product-teaser-wrapper .cards {
+.product-teaser .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,21 +134,21 @@
       flex-wrap: wrap;
 }
 
-.product-teaser-wrapper .cards .card {
+.product-teaser .cards .card {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 calc(50% - 0.75em);
           flex: 0 1 calc(50% - 0.75em);
   padding-bottom: 29px;
 }
 
-.product-teaser-wrapper .cards .card img {
+.product-teaser .cards .card img {
   height: 200px;
   background-color: #FFFFFF;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.product-teaser-wrapper .cards .card h5 {
+.product-teaser .cards .card h5 {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--rangitoto-2e2e22);
@@ -156,21 +156,21 @@
   padding-top: 14px;
 }
 
-.product-teaser-wrapper .cards .card .description {
+.product-teaser .cards .card .description {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/16px var(--unnamed-font-family-proxima-nova);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--rangitoto-2e2e22);
   padding-bottom: 9px;
 }
 
-.product-teaser-wrapper .cards .card .price {
+.product-teaser .cards .card .price {
   font: var(--unnamed-font-style-normal) normal medium 12px/15px var(--unnamed-font-family-proxima-nova);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--rangitoto-2e2e22);
   padding-bottom: 11px;
 }
 
-.product-teaser-wrapper .cards .card button {
+.product-teaser .cards .card button {
   font: var(--unnamed-font-style-normal) normal medium 12px/15px var(--unnamed-font-family-proxima-nova);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--rangitoto-2e2e22);
@@ -179,23 +179,23 @@
   padding: 10px 0;
 }
 
-.product-teaser-wrapper .cards .card button em {
+.product-teaser .cards .card button em {
   margin-right: 11px;
   display: none;
 }
 
-.product-teaser-wrapper .cards .card button:hover em {
+.product-teaser .cards .card button:hover em {
   display: inline-block;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .product-teaser-wrapper .cards .card img {
+  .product-teaser .cards .card img {
     height: 346px;
   }
 }
 
 @media (min-width: 1024px) {
-  .product-teaser-wrapper .top-links {
+  .product-teaser .top-links {
     padding-top: 82px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -207,13 +207,13 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--rangitoto-2e2e22);
   }
-  .product-teaser-wrapper .product-grid {
+  .product-teaser .product-grid {
     padding: 29px 0 111px;
   }
-  .product-teaser-wrapper .product-grid section:not(:last-child) {
+  .product-teaser .product-grid section:not(:last-child) {
     margin-bottom: 93px;
   }
-  .product-teaser-wrapper .cards {
+  .product-teaser .cards {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -224,17 +224,17 @@
         flex-wrap: wrap;
     padding-bottom: 0;
   }
-  .product-teaser-wrapper .cards .card {
+  .product-teaser .cards .card {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 calc(25% - 1.75em);
             flex: 0 1 calc(25% - 1.75em);
   }
-  .product-teaser-wrapper .cards .card img {
+  .product-teaser .cards .card img {
     height: 229px;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .product-teaser-wrapper .cards .card button em {
+  .product-teaser .cards .card button em {
     display: inline-block;
   }
 }

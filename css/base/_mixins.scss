@@ -8,14 +8,9 @@
 
 @mixin desktop {
     @media (min-width: #{$desktop-width}) {
-
-        //@debug "desktop-width: #{$desktop-width}";
-
         @content;
     }
 }
-
-
 
 @mixin toRem($property, $value) {
     #{$property}: ($value / 16) + rem;

@@ -1,7 +1,7 @@
 @import '../../base/variable';
 @import '../../base/mixins';
 
-.offer-banner-wrapper {
+.offer-banner {
     background-color: $color_cape_palliser;
     @include toRem(height, 50);
     @include toRem(line-height, 50);
@@ -21,7 +21,7 @@
 
 @include desktop {
 
-    .offer-banner-wrapper {
+    .offer-banner {
         @include toRem(height, 40);
         @include toRem(line-height, 40);
 

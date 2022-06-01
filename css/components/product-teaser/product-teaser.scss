@@ -2,7 +2,7 @@
 @import '../../base/variable';
 @import '../../base/mixins';
 
-.product-teaser-wrapper {
+.product-teaser {
     background-color: #EEF3F4;
     .top-links {
         display: none;
@@ -69,7 +69,7 @@
 }
 
 @include tablet{
-    .product-teaser-wrapper {
+    .product-teaser {
         .cards {
             .card {
                 img{
@@ -81,7 +81,7 @@
 }
 
 @include desktop {
-    .product-teaser-wrapper {
+    .product-teaser {
         .top-links {
             padding-top: 82px;
             display: flex;

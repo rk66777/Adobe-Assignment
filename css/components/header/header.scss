@@ -1,7 +1,7 @@
 @import '../../base/variable';
 @import '../../base/mixins';
 
-.header-wrapper {
+.header-container {
     background-color: $color_bg1;
 
     .navbar {
@@ -114,7 +114,7 @@
 
 @include desktop {
 
-    .header-wrapper {
+    .header-container {
         .navbar {
             padding-top: 44px;
 

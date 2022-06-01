@@ -111,12 +111,12 @@
   src: url(fonts/Metropolis-Black.eot);
 }
 
-.feature-banner-wrapper {
+.feature-banner-container {
   background-color: #EEF2F4;
   text-align: center;
 }
 
-.feature-banner-wrapper .feature-banner {
+.feature-banner-container .feature-banner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,28 +130,28 @@
   padding: 91px 0;
 }
 
-.feature-banner-wrapper .feature-banner div {
+.feature-banner-container .feature-banner div {
   width: 146px;
   margin: 0 80px;
 }
 
-.feature-banner-wrapper .feature-banner div:not(:last-child) {
+.feature-banner-container .feature-banner div:not(:last-child) {
   margin-bottom: 72px;
 }
 
-.feature-banner-wrapper .feature-banner em {
+.feature-banner-container .feature-banner em {
   color: var(--silver-rust-c6b9b6) 0% 0% no-repeat padding-box;
   padding-bottom: 22px;
 }
 
-.feature-banner-wrapper .feature-banner h5 {
+.feature-banner-container .feature-banner h5 {
   font: var(--unnamed-font-style-normal) normal 600 16px/19px var(--unnamed-font-family-proxima-nova);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--oxford-blue-354e57);
   padding-bottom: 12px;
 }
 
-.feature-banner-wrapper .feature-banner a {
+.feature-banner-container .feature-banner a {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/15px var(--unnamed-font-family-proxima-nova);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--oxford-blue-354e57);
@@ -159,14 +159,14 @@
 }
 
 @media (min-width: 1024px) {
-  .feature-banner-wrapper .feature-banner {
+  .feature-banner-container .feature-banner {
     padding: 58px 0 60px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .feature-banner-wrapper .feature-banner div:not(:last-child) {
+  .feature-banner-container .feature-banner div:not(:last-child) {
     margin-bottom: 0;
   }
 }
